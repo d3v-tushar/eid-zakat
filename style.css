@@ -76,7 +76,7 @@ h2 {
 
 p {
     font-size: 20px;
-    color: rgb(101, 99, 99);
+    color: rgb(120, 119, 119);
 }
 
 .btn-pos {
@@ -106,16 +106,39 @@ p {
     text-align: left;
 }
 
+#box-con{
+    display: flex;
+    padding: 5%;
+
+}
+
+#box-con > div > img{
+padding: 22px;
+padding-left: 10px;
+}
+
 
 .depend-option-1 > div{
     margin: 20px 10px;
-    background-color: rgb(226, 223, 223);
+    background-color: rgb(243, 239, 239);
     border-radius: 8px;
     padding: 3% 8% 3% 15%;
+    
 }
+
+.depend-option-1 > div:hover{
+    background-color: lightgray;
+    position: static;
+}
+
+.depend-option-2 > div:hover{
+    background-color: lightgray;
+    position: static ;
+}
+
 .depend-option-2 > div{
     margin: 20px 10px;
-    background-color: rgb(226, 223, 223);
+    background-color: rgb(243, 239, 239);
     border-radius: 8px;
     padding: 3% 8% 3% 15%;
 }
@@ -143,12 +166,13 @@ p {
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 50px;
+    border: 5px solid white;
 }
 
 .botton-sec-container > div{
     margin: 10px;
     border-radius: 20px;
-    border: 2px solid lightgrey;
+    border: 5px solid lightgrey;
     text-align: left;
     padding-bottom: 30px;
     padding-right: 0px;
@@ -157,7 +181,8 @@ p {
 }
 
 .botton-sec-container > div:hover{
-    background-color: lightblue;
+    border: 5px solid orangered;
+    position: static;
 }
 
 .botton-sec-container div div{

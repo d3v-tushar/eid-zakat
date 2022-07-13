@@ -15,6 +15,8 @@ body {
     height: 100vh;
     width: 100vw;
     color: white;
+    position: relative;
+
 }
 
 .top-container {
@@ -151,6 +153,11 @@ p {
     padding-bottom: 30px;
     padding-right: 0px;
     margin-bottom: 60px;
+    box-shadow: 10px 12px 10px gray;
+}
+
+.botton-sec-container > div:hover{
+    background-color: lightblue;
 }
 
 .botton-sec-container div div{
@@ -178,7 +185,7 @@ h3{
 footer{
     font-family: 'Lobster', cursive;
     background-color: black;
-    height: 200px;
+    height: 230px;
     color: tomato;
     text-align: center;
 }

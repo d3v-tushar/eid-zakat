@@ -1,0 +1,193 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    font-weight: 600;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.top-banner {
+    background-image: url(images/cow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.top-container {
+    padding-top: 250px;
+    padding-left: 20px;
+    padding-right: 40%;
+    margin: 10%;
+    margin-top: 0%;
+    margin-left: 15%;
+}
+
+.top-container h1 {
+    font-size: 60px;
+}
+
+.top-container p {
+    margin-top: -35px;
+}
+
+.top-button {
+    background-color: tomato;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    background-image: linear-gradient(orange tomato);
+    border-radius: 7px;
+    font-size: 25px;
+}
+
+.btn {
+    margin: 40px 0;
+}
+
+.flex-container {
+    display: flex;
+    padding: 0% 7%;
+    margin: 5%;
+}
+
+.context1 {
+    padding: 6% 6%;
+}
+
+.half-width {
+    padding: 5%;
+    padding-right: 7%;
+
+}
+
+.half-width img {
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(101, 99, 99);
+}
+
+.btn-pos {
+    margin-top: 50px;
+}
+
+.depend {
+    text-align: center;
+    margin: 2% 10%;
+    padding: 0% 10%;
+    width: 60%;
+}
+
+.depend-option {
+    display: grid;
+    justify-content: center;
+    display: flex;
+}
+
+.depend-option div {
+    padding: 1% 0%;
+}
+
+.depend-option-1, .depend-option-2 {
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+}
+
+
+.depend-option-1 > div{
+    margin: 20px 10px;
+    background-color: rgb(226, 223, 223);
+    border-radius: 8px;
+    padding: 3% 8% 3% 15%;
+}
+.depend-option-2 > div{
+    margin: 20px 10px;
+    background-color: rgb(226, 223, 223);
+    border-radius: 8px;
+    padding: 3% 8% 3% 15%;
+}
+
+#pic-pos{
+    align-items: flex-start;
+}
+
+.imagesx3 div{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.botton-sec{
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.botton-sec-container{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.botton-sec-container > div{
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    margin-bottom: 60px;
+}
+
+.botton-sec-container div div{
+    margin: 25px;
+}
+
+
+.botton-sec-container div div a{
+    font-size: 20px;
+    color: tomato;
+}
+
+h3{
+    font-size: 25px;
+}
+
+
+.botton-sec-container div img{
+    margin: 0%;
+    padding: 0%;
+    align-items: flex-start;
+    width: 100%;
+}
+
+footer{
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    height: 200px;
+    color: tomato;
+    text-align: center;
+}
+
+footer div{
+   padding-top: 5px;
+}
+
+#image-container{
+    margin: 0px;
+    padding: 0px;
+}
